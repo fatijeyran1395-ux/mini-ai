@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mini-ai",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-12-01",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "CLOUDFLARE_ACCOUNT_ID": "feaa8fae4b2ec96feaecb9883e9ec3d1",
+    "CLOUDFLARE_API_TOKEN": "cfut_T6kpBwbAq4vPrwOxlB28hDSuF6fwwt4zzvUHZSYlf3715dc2"
+  }
+}
